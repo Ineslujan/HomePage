@@ -1,0 +1,10 @@
+{
+  "data" : {
+    "menuTitle" : [
+      {"title" :"Dashboard", "links" : ["Ecommerce"]},
+      {"title" :"Pages", "links" : ["Orders","Customers"]},
+      {"title" :"App", "links" : ["Calendar","Editor","Color-Picker"]},
+      {"title" :"Settings", "links" : ["Personal info","Team settings","Employees"]}
+    ]
+  }
+}
