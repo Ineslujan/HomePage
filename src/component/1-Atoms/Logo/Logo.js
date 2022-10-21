@@ -6,7 +6,7 @@ import './logo.scss';
 function Logo() {
   return (
     <h1 aria-label="Logo React">
-      <img src={logo} alt="logo du site" className="logo" />
+      <img src={logo} alt="site logo" className="logo" />
     </h1>
   );
 }
