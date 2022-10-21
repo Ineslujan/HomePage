@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Home from './component/3-Organisms/Home/Home';
@@ -9,11 +9,13 @@ import Footer from './component/3-Organisms/Footer/Footer';
 import './App.scss';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <div className="App">
-      <SideMenu />
+      {isOpen && <SideMenu />}
       <main className="main">
-        <Header />
+        <Header setIsOpen={setIsOpen} isOpen={isOpen} />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

@@ -1,15 +1,17 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
+
 import ButtonCart from '../../1-Atoms/ButtonCart/ButtonCart';
 import ButtonMenu from '../../1-Atoms/ButtonMenu/ButtonMenu';
 import ButtonUser from '../../1-Atoms/ButtonUser/ButtonUser';
 
 import './header.scss';
 
-function Header() {
+function Header({ setIsOpen, isOpen }) {
   return (
     <header className="header">
       <div className="buttonLeft">
-        <ButtonMenu />
+        <ButtonMenu setIsOpen={setIsOpen} isOpen={isOpen} />
       </div>
       <div className="buttonRight">
         <ButtonCart />
@@ -18,5 +20,10 @@ function Header() {
     </header>
   );
 }
+
+Header.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  setIsOpen: PropTypes.func.isRequired,
+};
 
 export default Header;

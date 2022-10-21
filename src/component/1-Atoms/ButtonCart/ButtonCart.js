@@ -5,7 +5,9 @@ import './buttonCart.scss';
 
 function ButtonCart() {
   return (
-    <img src={buttonCartArrow} alt="Button menu" className="burgerMenu" />
+    <button type="button">
+      <img src={buttonCartArrow} alt="Button menu" className="burgerMenu" />
+    </button>
   );
 }
 
