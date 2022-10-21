@@ -8,18 +8,18 @@ import './menuTitle.scss';
 
 function MenuTitle({ title, data }) {
   return (
-    <>
+    <li>
       <h2 className="menuTitle">{title.toUpperCase()}</h2>
       {
-        data.map((d) => <LinksMenu key={uuid()} link={d} />)
+        data.map((d) => <LinksMenu key={uuid()} link={d.link} icon={d.icon} />)
       }
-    </>
+    </li>
   );
 }
 
 MenuTitle.propTypes = {
   title: PropTypes.string.isRequired,
-  data: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+  data: PropTypes.objectOf(PropTypes.string.isRequired).isRequired,
 };
 
 export default MenuTitle;

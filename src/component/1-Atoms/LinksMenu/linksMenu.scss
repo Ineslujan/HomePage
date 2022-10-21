@@ -1,0 +1,13 @@
+.linkMenu {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 10px;
+
+  &-icon {
+    width: 13px;
+  }
+}
+
+.linkMenu:first-of-type{
+  padding-top: 0;
+}

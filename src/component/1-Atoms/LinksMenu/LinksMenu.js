@@ -3,22 +3,26 @@ import { PropTypes } from 'prop-types';
 import { Link } from 'react-router-dom';
 
 // const svgDir = require.context('!@svgr/webpack!../../../assets');
+import icon from '../../../assets/circle.svg';
 
-function LinksMenu({ link }) {
+import './linksMenu.scss';
+
+function LinksMenu({ link /* icon */ }) {
   // console.log(svgDir);
 
   return (
-    <Link to="/">
-      <li>
-        {/* <img src={svgDir(`./${link}.svg`).default} alt="" /> */}
+    <Link to="/" className="linkMenu">
+      <img src={icon} alt="" className="linkMenu-icon" />
+      <p>
         {link}
-      </li>
+      </p>
     </Link>
   );
 }
 
 LinksMenu.propTypes = {
   link: PropTypes.string.isRequired,
+  // icon: PropTypes.string.isRequired,
 };
 
 export default LinksMenu;

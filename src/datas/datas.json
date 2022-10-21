@@ -1,10 +1,62 @@
 {
-  "data" : {
-    "menuTitle" : [
-      {"title" :"Dashboard", "links" : ["Ecommerce"]},
-      {"title" :"Pages", "links" : ["Orders","Customers"]},
-      {"title" :"App", "links" : ["Calendar","Editor","Color-Picker"]},
-      {"title" :"Settings", "links" : ["Personal info","Team settings","Employees"]}
+  "data": {
+    "menuTitle": [
+      {
+        "title": "Dashboard",
+        "links": [
+          {
+            "link": "Ecommerce",
+            "icon": "Ecommerce.svg"
+          }
+        ]
+      },
+      {
+        "title": "Pages",
+        "links": [
+          {
+            "link": "Orders",
+            "icon": "/src/assets/Orders.svg"
+          },
+          {
+            "link": "Customers",
+            "icon": "/src/assets/Customers.svg"
+          }
+        ]
+      },
+      {
+        "title": "App",
+        "links": [
+          {
+            "link": "Calendar",
+            "icon": "/src/assets/Calendar.svg"
+          },
+          {
+            "link": "Editor",
+            "icon": "/src/assets/Editor.svg"
+          },
+          {
+            "link": "Color-Picker",
+            "icon": "/src/assets/Color-Picker.svg"
+          }
+        ]
+      },
+      {
+        "title": "Settings",
+        "links": [
+          {
+            "link": "Personal info",
+            "icon": "/src/assets/Personal info.svg"
+          },
+          {
+            "link": "Team settings",
+            "icon": "/src/assets/Team settings.svg"
+          },
+          {
+            "link": "Employees",
+            "icon": "/src/assets/Employees.svg"
+          }
+        ]
+      }
     ]
   }
 }
