@@ -6,7 +6,7 @@ import SideMenu from './component/3-Organisms/SideMenu/SideMenu';
 import Header from './component/3-Organisms/Header/Header';
 import Footer from './component/3-Organisms/Footer/Footer';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

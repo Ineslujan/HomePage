@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './home.scss';
+
 function Home() {
   return (
-    <div>Home</div>
+    <section className="content">Home</section>
   );
 }
 

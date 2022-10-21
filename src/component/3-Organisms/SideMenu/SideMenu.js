@@ -5,10 +5,11 @@ import Logo from '../../1-Atoms/Logo/Logo';
 import MenuTitle from '../../1-Atoms/MenuTitle/MenuTitle';
 
 import datas from '../../../datas/datas.json';
+import './sideMenu.scss';
 
 function SideMenu() {
   return (
-    <aside>
+    <aside className="sideMenu">
       <Logo />
       <ul className="menu">
         {
