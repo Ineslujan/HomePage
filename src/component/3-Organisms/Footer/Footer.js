@@ -1,8 +1,13 @@
 import React from 'react';
+import Copyright from '../../1-Atoms/Copyright/Copyright';
+
+import './footer.scss';
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="footer">
+      <Copyright />
+    </footer>
   );
 }
 
