@@ -1,18 +1,14 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import { Link } from 'react-router-dom';
-
-// const svgDir = require.context('!@svgr/webpack!../../../assets');
-import icon from '../../../assets/circle.svg';
+import { Icon } from '@iconify/react';
 
 import './linksMenu.scss';
 
-function LinksMenu({ link /* icon */ }) {
-  // console.log(svgDir);
-
+function LinksMenu({ link, icon }) {
   return (
     <Link to="/" className="linkMenu">
-      <img src={icon} alt="" className="linkMenu-icon" />
+      <Icon icon={icon} />
       <p>
         {link}
       </p>
@@ -22,7 +18,7 @@ function LinksMenu({ link /* icon */ }) {
 
 LinksMenu.propTypes = {
   link: PropTypes.string.isRequired,
-  // icon: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
 };
 
 export default LinksMenu;

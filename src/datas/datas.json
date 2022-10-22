@@ -6,7 +6,7 @@
         "links": [
           {
             "link": "Ecommerce",
-            "icon": "Ecommerce.svg"
+            "icon": "ph:bag"
           }
         ]
       },
@@ -15,11 +15,11 @@
         "links": [
           {
             "link": "Orders",
-            "icon": "/src/assets/Orders.svg"
+            "icon": "ic:outline-shopping-cart"
           },
           {
             "link": "Customers",
-            "icon": "/src/assets/Customers.svg"
+            "icon": "fluent:people-team-16-regular"
           }
         ]
       },
@@ -28,15 +28,15 @@
         "links": [
           {
             "link": "Calendar",
-            "icon": "/src/assets/Calendar.svg"
+            "icon": "akar-icons:calendar"
           },
           {
             "link": "Editor",
-            "icon": "/src/assets/Editor.svg"
+            "icon": "fa6-regular:pen-to-square"
           },
           {
             "link": "Color-Picker",
-            "icon": "/src/assets/Color-Picker.svg"
+            "icon": "la:palette"
           }
         ]
       },
@@ -45,15 +45,15 @@
         "links": [
           {
             "link": "Personal info",
-            "icon": "/src/assets/Personal info.svg"
+            "icon": "bx:user"
           },
           {
             "link": "Team settings",
-            "icon": "/src/assets/Team settings.svg"
+            "icon": "icon-park-solid:setting"
           },
           {
             "link": "Employees",
-            "icon": "/src/assets/Employees.svg"
+            "icon": "fluent:people-team-16-filled"
           }
         ]
       }
